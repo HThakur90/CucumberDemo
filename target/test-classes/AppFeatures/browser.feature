@@ -21,16 +21,13 @@ Feature: Login
 
   @tag1
   Scenario: :Login Functionality exists
-    Given I have open the browser
-    When I Open Gmail Homepage
+    Given I Open Orange Homepage
     Then Login Should Exist
     
 Feature: Login with Credentials
 Scenario: User Log in
-Given I have open the browser
-And I Open Gmail Homepage
-When User log in as username as "uname" and Password as "pswd"
-Then Home Page should be displayed
+Given I Open Orange HRM Homepage
+Then Login Should Exist
 
 
   

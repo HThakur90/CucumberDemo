@@ -20,8 +20,7 @@
 
 Feature: Login with Credentials
 Scenario: User Log in
-Given I have open the browser
-And I Open Gmail Homepage
+Given I Open Orange Homepage
 When User log in with username as "<Username>" and Password as "<Password>"
 Then Home Page should be displayed
 
@@ -29,3 +28,4 @@ Examples:
 |	Username	|	Password	|
 |	h.thakur90@gmail.com	|	thakur90@123 |
 |	Abc@gmail.com	|	Abc@1223 |
+|	Admin	|	admin123	|

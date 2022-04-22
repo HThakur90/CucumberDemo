@@ -22,6 +22,6 @@ Amazon Search
 
 Scenario: Search a Product
 
-Given I have a search field
+Given I have Login 
 When  I search for the product with name "Apple MacBook Pro" and price 1000
 Then Product with name "Apple MacBook Pro" should be displayed
